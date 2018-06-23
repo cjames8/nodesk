@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <fieldset>
+        <legend>Choose trip dates</legend>
+    
+        <div>
+            <label for="start">Start</label>
+            <input type="date" id="start" name="trip"
+                   value="2018-07-22"
+                   min="2018-01-01" max="2018-12-31" />
+        </div>
+    
+        <div>
+            <label for="end">End</label>
+            <input type="date" id="end" name="trip"
+                   value="2018-07-29"
+                   min="2018-01-01" max="2018-12-31"/ >
+        </div>
+    </fieldset>
+  
+    <fieldset>
+        <legend>Enter contact email</legend>
+    
+        <label for="primary">Primary address:</label>
+        <input type="email" placeholder="drone@globex.com"
+               pattern=".+@globex.com" size="30" required
+               title="Must be a globex.com email address" />
+    
+        <label for="secondary">Secondary addresses:</label>
+        <input type="email" placeholder="foo@this.com, bar@that.com"
+               size="35" multiple
+               title="Zero or more addresses, separated with ','" />
+    
+    </fieldset>
+
+    <fieldset>
+        <legend>Update URL</legend>
+    
+        <div class="control">
+            <label for="url">Enter an https:// URL:</label>
+            <input type="url" name="url" id="url"
+                   placeholder="https://example.com"
+                   pattern="https://.*" size="20" required /> 
+                      
+       </div>
+    </fieldset>
+    <fieldset>
+        <input type="search" name="query" />    
+    </fieldset>
+
+
+  </html>
