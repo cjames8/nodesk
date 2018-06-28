@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+h2{
+    margin: 0;
+    text-shadow: 1px 2px 3px;
+}
+.main {
+    padding: 20px;
+}
+div p{
+    text-align: justify;
+}
+.overflow{
+    box-sizing: 100px;
+    overflow-y: scroll;
+
+}
