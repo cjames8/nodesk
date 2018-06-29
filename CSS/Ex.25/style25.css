@@ -8,6 +8,31 @@ html, body{
     width: 960px;
     margin: 0 auto;
     background-color: #ddd;
-    border: 1px solid gray;
-    
+    border: 1px solid gray;   
+}
+header {
+    padding: 20px;
+    color: #eee;
+
+}
+header, footer {
+    background-color: gray;
+}
+.side {
+    float: left;
+    width: 150px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.side>ul~li {
+    display: block;
+    padding: 10px 0px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px gray;
+
 }
