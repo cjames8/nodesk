@@ -5,10 +5,10 @@ body {
     font-size: 16px
 }
 h1 {
-    font-color:#f47933;
+    color:#f47933;
 }
 p {
-    text-align: center;
+    text-align: justify;
 }
 img {
     border: 2px solid transparent;
