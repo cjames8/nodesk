@@ -1,0 +1,10 @@
+const firstName = 'Carlene';
+const lastName = 'James';
+const age = 20;
+const address = '07/24/1993';
+const dateOfBirth = '1016 3rd Street';
+console.log('name:', firstName);
+console.log('last name:',lastName);
+console.log('age:',age);
+console.log('address:',address);
+console.log('DOB:',dateOfBirth);

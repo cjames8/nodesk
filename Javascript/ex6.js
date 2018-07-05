@@ -1,0 +1,10 @@
+var firstName = 'Carlene';
+var lastName = 'James';
+var age = 20;
+var address = '07/24/1993';
+var dateOfBirth = '1016 3rd Street';
+console.log('name:', firstName);
+console.log('last name:',lastName);
+console.log('age:',age);
+console.log('address:',address);
+console.log('DOB:',dateOfBirth);
