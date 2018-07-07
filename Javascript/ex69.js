@@ -1,13 +1,12 @@
 let number = 0;
-let i = 0
+let i = 0;
 
-while (number <= 1000) { 
-    console.log(${number} = ${number} + ${i});
+while (i <= 1001) { 
     number = number + i;
     i++;
-
-  if (number == 100){
-      break;
-  }
+    console.log(`${number} + ${i} = ${number}`);
+  //if (number == 100){
+    //  break;
+  //}
 }
   
